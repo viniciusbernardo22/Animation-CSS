@@ -1,0 +1,189 @@
+* {
+	font-family: arial;
+	margin:0;
+    padding:0;
+    border:0;
+}
+
+body {
+	background-color: #FFFFFF;
+}
+
+
+	.topo{
+		height:50px;
+		background-color: black;
+	}
+	.topointerior{
+		height:500px;
+		margin:auto;
+		background-color: black;
+		font-weight: bold
+
+	}
+	.logomarca {
+		float:left;
+		font-size: 24px;
+		color: white;
+		line-height: 50px;
+		padding-left: 10px;
+
+	}
+	.menu{
+	float:right;
+	color: white;
+	}
+
+	.menu ul, .menu li{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	.menu li {
+		float:left;
+		padding-right: 20px;
+		padding-left: 20px;
+		line-height: 50px;
+		font-size: 14px
+
+	}
+/* hover = quando passar o mouse*/
+	.menu li:hover {
+		background-color: #3400c1;
+		cursor: pointer;
+		transition:all 0.5s linear;
+	}
+
+	.logomarca:hover{
+		background-color: #3400c1;
+		cursor: pointer;
+		transition:all 0.5s linear;
+
+	}
+	footer{
+		background-color: #FFF000;
+		font-size: 18px;
+		width: 100%
+		position:absolute;
+		bottom: 0;
+		font-style: 
+
+	}
+
+
+
+.vici{
+	width: 100%;
+	max-width: 3000px;
+	height: 450px;
+	margin:auto;
+	display: block;
+}
+
+.catalogo{
+	background-color: #add8e6;
+	background:linear-gradient(white,blue);
+
+	width: 100%;
+	height: 200px;
+	position: absolute;
+}
+
+.produtos{
+	width: 100px;
+	height: 100px
+	margin-left: 10px;
+	border-radius: 10px;
+
+}
+.titulocatalogo{
+	margin-left: 10px;
+}
+.descricaoproduto{
+	margin-left: 10px;
+
+}
+
+
+
+/*----------------------------------------- (= Tela de Login =)--------------------------------------*/
+
+form {
+width: 160px;
+height: 150px;
+background-color: #DDD;
+margin: auto;
+padding: 20px;
+margin-top: 100px;
+border-radius: 10px
+
+
+}
+
+input{
+	cursor: pointer;
+	size: 40;
+	margin-right: 5px;
+
+}
+
+input:hover{
+	background-color: white;
+}
+
+/*----------------------------------------- (= Tela de cadastro =)-----------------------------------*/
+
+
+@keyframes exemplo1 {
+	0% {background-color: red;top:0;left: 0; }
+	25% {background-color: yellow;top:0;left:1200;}
+	50% {background-color: blue;top:1200;left: 1200;}
+	75% {background-color: green;top:1200;left: 0;}
+	100% {background-color: red;top:0;left: 0;}
+
+}
+
+.exemplo{
+	width: 150px;
+	height: 150px;
+	background-color: green;
+	animation-name:exemplo1;
+	animation-duration:4s;
+	position: absolute;
+	animation-delay:0s;
+	animation-iteration-count:infinite;
+	border-radius: 100px;
+	box-shadow: 10px 10px 20px;
+
+}
+
+
+
+
+/*----------------------------------------- (= Tela de cadastro =)-----------------------------------*/
+
+/* Condição para responsividade de acordo com o tamanho da tela que a aplicação será exibida */
+
+/*
+@media only screen and (max-width:500px ) and (max-width: 800px){
+
+	.topo {
+		width: 500px;
+	}
+	
+
+@media only screen and (max-width:1000px ){
+
+	.topo{
+		height: 200px;
+	}
+	.logomarca{
+		width: 100%;
+	}
+	.menu{
+		width: 100%;
+	}
+	
+
+}
+*/
